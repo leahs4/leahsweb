@@ -6,17 +6,18 @@ ul {
 
 a {
   text-decoration: none;
-  color: #4A90E2; /* Your chosen light blue color */
+  color: #ffffff; 
 }
 
-/* Basic styles for layout */
 header, footer {
-  background-color: #F4F4F4;
+  background-color: #6b9bd3;
+  color: #333333;
   padding: 1rem 0;
   text-align: center;
 }
 
 main {
+  color: #333333;
   padding: 2rem;
 }
 

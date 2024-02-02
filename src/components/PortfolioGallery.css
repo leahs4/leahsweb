@@ -1,0 +1,31 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust the gap between items */
+    justify-content: center; /* Center items in the container */
+  }
+  
+  .gallery-item {
+    flex: 0 1 calc(33.333% - 16px); /* Adjust item width - 3 items per row by default */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-item img {
+    width: 100%; /* Make images responsive */
+    border-radius: 8px; /* Optional: Adds rounded corners to the images */
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item {
+      flex: 0 1 calc(50% - 16px); /* 2 items per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-item {
+      flex: 0 1 100%; /* 1 item per row on very small screens */
+    }
+  }
+  
