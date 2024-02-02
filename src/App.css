@@ -1,38 +1,34 @@
-.App {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4A90E2; /* Your chosen light blue color */
+}
+
+/* Basic styles for layout */
+header, footer {
+  background-color: #F4F4F4;
+  padding: 1rem 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #4A90E2;
-  min-height: 100vh;
+nav ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #333333;
 }
 
-.App-link {
-  color: #F4F4F4;
+nav ul li {
+  margin: 0 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  margin-top: 2rem;
 }

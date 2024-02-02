@@ -1,12 +1,15 @@
+import React from 'react';
 import './App.css';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is the beginning of my professional portfolio website.</p>
-      </header>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
